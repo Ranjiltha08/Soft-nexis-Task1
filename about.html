@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Ranjiltha V M</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="logo">R<span>.</span>anjiltha</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- ABOUT INTRO -->
+    <section>
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-avatar">🧑‍💻</div>
+          <div class="about-text">
+            <span class="section-label">Who I Am</span>
+            <h2>CS Student · Web Dev · Data Enthusiast</h2>
+            <p>
+              I'm Ranjiltha V M, a Computer Science student with a passion for building meaningful digital experiences. From writing clean code to crafting beautiful UI designs, I enjoy every dimension of the tech world.
+            </p>
+            <p>
+              My interests span web development, data analytics, and UI/UX design. I love working at the intersection of design and technology — creating things that are both functional and visually compelling.
+            </p>
+            <p>
+              When I'm not coding, I'm designing in Canva, exploring data dashboards, or learning new tools. I believe great software is built with empathy — understanding people's needs and solving them elegantly.
+            </p>
+
+            <div class="stats-row">
+              <div class="stat">
+                <div class="stat-num">4</div>
+                <div class="stat-label">Projects Built</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">8+</div>
+                <div class="stat-label">Skills</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">∞</div>
+                <div class="stat-label">Curiosity</div>
+              </div>
+            </div>
+
+            <a href="contact.html" class="btn btn-primary">Say hello →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFO CARDS -->
+    <section>
+      <div class="container">
+        <span class="section-label">Background</span>
+        <h2 class="section-title">Education & Interests</h2>
+
+        <div class="skills-grid" style="margin-top:2rem;">
+          <div class="skill-card" style="text-align:left;">
+            <div class="skill-name">🎓 Education</div>
+            <p style="font-size:.85rem; color:var(--text-muted); margin-top:.5rem; line-height:1.7;">B.Tech / B.E. in Computer Science — pursuing my undergraduate degree with a focus on software development and data analytics.</p>
+          </div>
+          <div class="skill-card" style="text-align:left;">
+            <div class="skill-name">💡 Interests</div>
+            <p style="font-size:.85rem; color:var(--text-muted); margin-top:.5rem; line-height:1.7;">Web development, UI/UX design, data analytics, software development, and creating visually engaging digital experiences.</p>
+          </div>
+          <div class="skill-card" style="text-align:left;">
+            <div class="skill-name">🎯 Goal</div>
+            <p style="font-size:.85rem; color:var(--text-muted); margin-top:.5rem; line-height:1.7;">To become a versatile developer and designer who builds data-driven, user-centered applications that create real impact.</p>
+          </div>
+          <div class="skill-card" style="text-align:left;">
+            <div class="skill-name">🛠 Also Familiar With</div>
+            <p style="font-size:.85rem; color:var(--text-muted); margin-top:.5rem; line-height:1.7;">GitHub · Power BI · Figma · OpenCV · OOP Concepts · Data Structures · Responsive Design · Algorithms</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+      <div class="container">
+        <span class="section-label">Technical Skills</span>
+        <h2 class="section-title">My Stack</h2>
+
+        <div class="skills-grid" style="margin-top:2rem;">
+          <div class="skill-card">
+            <div class="skill-name">🌐 HTML</div>
+            <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-name">🎨 CSS</div>
+            <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-name">🐍 Python</div>
+            <div class="skill-bar"><div class="skill-fill" style="width:72%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-name">⚙️ C</div>
+            <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-name">☕ Java</div>
+            <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-name">✨ UI / UX</div>
+            <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-name">🎨 Canva</div>
+            <div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-name">📊 Data Analytics</div>
+            <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Designed & built by <span>Ranjiltha V M</span> · 2025</p>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      navLinks.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
